@@ -1,13 +1,12 @@
 AMREX_HOME ?= ../../../../amrex
 
 DEBUG	= FALSE
-DEBUG	= TRUE
 
 DIM	= 3
 
 COMP    = gcc
 
-USE_MPI   = FALSE
+USE_MPI   = TRUE
 USE_OMP   = FALSE
 USE_CUDA  = FALSE
 USE_HIP   = FALSE
